@@ -1,47 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishnanshu Joshi | Finance-First Content Strategist</title>
+    <title>Krishnanshu Joshi - B2B Content Strategist</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
-        .container { max-width: 900px; margin: 0 auto; padding: 80px 20px; }
-        h1 { font-size: 48px; font-weight: 700; margin-bottom: 24px; line-height: 1.2; }
-        h2 { font-size: 32px; font-weight: 700; margin: 60px 0 24px; }
-        p { font-size: 18px; margin-bottom: 16px; color: #555; }
-        .hero { text-align: center; padding: 100px 20px; }
-        .cta { display: inline-block; margin-top: 32px; padding: 16px 32px; background: #000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
-        .cta:hover { background: #333; }
-        footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; margin-top: 80px; color: #777; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; background: #000; color: #fff; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 60px 20px; margin-bottom: 60px; }
+        header h1 { font-size: 56px; font-weight: 700; margin-bottom: 20px; letter-spacing: -0.02em; }
+        header p { font-size: 24px; color: #999; max-width: 700px; margin: 0 auto; }
+        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; }
+        .service-card { background: #111; padding: 40px; border-radius: 12px; border: 1px solid #222; transition: all 0.3s; }
+        .service-card:hover { border-color: #444; transform: translateY(-4px); }
+        .service-card h3 { font-size: 24px; margin-bottom: 15px; color: #fff; }
+        .service-card p { color: #aaa; font-size: 16px; line-height: 1.7; }
+        .cta { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); border-radius: 16px; margin: 60px 0; }
+        .cta h2 { font-size: 42px; margin-bottom: 20px; }
+        .cta p { font-size: 20px; color: #999; margin-bottom: 40px; }
+        .cta-button { display: inline-block; padding: 18px 40px; background: #fff; color: #000; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 18px; transition: all 0.3s; }
+        .cta-button:hover { background: #f0f0f0; transform: scale(1.05); }
+        footer { text-align: center; padding: 60px 20px; border-top: 1px solid #222; color: #666; }
+        .social-links { display: flex; justify-content: center; gap: 30px; margin-top: 30px; }
+        .social-links a { color: #999; text-decoration: none; font-size: 16px; transition: color 0.3s; }
+        .social-links a:hover { color: #fff; }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>Content That Converts.<br>Authority That Compounds.</h1>
-        <p>I help finance founders, fund managers, and B2B leaders turn expertise into authority-led content that builds trust, inbound leads, and brand recall.</p>
-        <a href="mailto:hello@krishnanshujoshi.com" class="cta">Book a Discovery Call</a>
-    </div>
-    
     <div class="container">
-        <h2>What I Do</h2>
-        <p><strong>LinkedIn Ghostwriting:</strong> 12 authority-driven posts/month, editorial calendar, and LinkedIn growth strategy.</p>
-        <p><strong>B2B Content Strategy:</strong> Full-funnel content strategy tailored for fintech, fund managers, and finance founders.</p>
-        <p><strong>Lead Generation:</strong> Targeted B2B lead lists across fintech, AMC, and investment advisory sectors.</p>
-        <p><strong>Pitch Decks & Brand Strategy:</strong> Investor-ready decks, brand positioning, and go-to-market narratives for B2B founders.</p>
-        
-        <h2>By The Numbers</h2>
-        <p>4+ years of hands-on B2B content and consulting experience</p>
-        <p>52+ weekly newsletter editions published, building finance audiences from scratch</p>
-        <p>1,000+ qualified B2B leads researched and built across international markets</p>
-        <p>3 continents served — India, Europe, and Asia-Pacific markets</p>
+        <header>
+            <h1>Krishnanshu Joshi</h1>
+            <p>Finance-First B2B Content Strategist | Turning Complex Financial Concepts Into Authority-Driven Content</p>
+        </header>
+
+        <section class="services">
+            <div class="service-card">
+                <h3>LinkedIn Ghostwriting</h3>
+                <p>12 authority-driven posts per month that position you as a thought leader in fintech, wealth management, or investment advisory.</p>
+            </div>
+            <div class="service-card">
+                <h3>B2B Content Strategy</h3>
+                <p>Full-funnel content frameworks tailored for finance founders and fund managers to drive inbound leads and brand recall.</p>
+            </div>
+            <div class="service-card">
+                <h3>Lead Generation Strategy</h3>
+                <p>Targeted B2B lead lists and outreach strategies for fintech, AMC, and investment sectors to fill your pipeline.</p>
+            </div>
+            <div class="service-card">
+                <h3>Pitch Decks & Brand Positioning</h3>
+                <p>Investor-ready decks and go-to-market narratives that cut through the noise and close deals.</p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to Build Authority?</h2>
+            <p>Let's turn your expertise into content that drives real business results</p>
+            <a href="mailto:hello@krishnanshujoshi.com" class="cta-button">Get In Touch</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Krishnanshu Joshi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/krishnanshujoshi" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/krishnanshujoshi" target="_blank">Twitter</a>
+                <a href="mailto:hello@krishnanshujoshi.com">Email</a>
+            </div>
+        </footer>
     </div>
-    
-    <footer>
-        <p><strong>Krishnanshu Joshi</strong></p>
-        <p>hello@krishnanshujoshi.com | linkedin.com/in/krishnanshujoshi</p>
-        <p>Jodhpur, Rajasthan, India</p>
-    </footer>
 </body>
 </html>
